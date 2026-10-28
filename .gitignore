@@ -1,0 +1,16 @@
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# generated from the local game install (not redistributable)
+charts/
+audio/
+runs/
+_research/
+*.wav
+
+# per-machine settings
+config.json
+
+dist/
