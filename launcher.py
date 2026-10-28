@@ -10,9 +10,9 @@ ROOT = Path(__file__).resolve().parent
 CONFIG = ROOT / "config.json"
 
 STAGES = {
-    "1": ("第一关 ShootStage（Hard）", ROOT / "charts" / "ShootStage_HD.json"),
-    "2": ("第二关 Training（Hard）", ROOT / "charts" / "TrainingHD.json"),
-    "3": ("第三关 DessertStage（Hard）", ROOT / "charts" / "DessertStage_HD.json"),
+    "2": ("第一关 ShootStage（Hard）", ROOT / "charts" / "ShootStage_HD.json"),
+    "3": ("第二关 Training（Hard）", ROOT / "charts" / "TrainingHD.json"),
+    "4": ("第三关 DessertStage（Hard）", ROOT / "charts" / "DessertStage_HD.json"),
 }
 
 
