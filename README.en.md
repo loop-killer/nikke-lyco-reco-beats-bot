@@ -4,6 +4,8 @@
 
 [中文文档](README.md) | English
 
+![License](https://img.shields.io/badge/license-MIT-blue.svg) ![Python](https://img.shields.io/badge/python-3.10%2B-blue.svg) ![Platform](https://img.shields.io/badge/platform-Windows-lightgrey.svg)
+
 Verified on all three Hard stages with every MOD enabled:
 
 | Stage | Result |
@@ -124,3 +126,4 @@ runs/                  per-run logs (git-ignored)
 For learning and experimentation only. Not affiliated with SHIFT UP, Level Infinite, or Tencent.
 Using this tool may violate the game's Terms of Service and lead to account penalties; you accept all consequences.
 Do not redistribute game assets extracted with these tools (charts, audio).
+

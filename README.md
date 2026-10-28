@@ -2,6 +2,8 @@
 
 [English](README.en.md) | 中文
 
+![License](https://img.shields.io/badge/license-MIT-blue.svg) ![Python](https://img.shields.io/badge/python-3.10%2B-blue.svg) ![Platform](https://img.shields.io/badge/platform-Windows-lightgrey.svg)
+
 > NIKKE (CN) × Lycoris Recoil collab minigame **LYCO RECO BEATS** auto-perfect bot — chart replay driven by local asset extraction + WASAPI loopback sync.
 
 给《胜利女神：新的希望》（NIKKE 国服）×《莉可丽丝》联动小游戏 **LYCO RECO BEATS** 用的谱面回放工具。
@@ -137,6 +139,7 @@ runs/                  每次运行的日志（不入库）
 本项目仅供学习交流，与 SHIFT UP / Level Infinite / 腾讯无关。
 使用本工具可能违反游戏服务条款并导致账号处罚，一切后果由使用者自行承担。
 请勿将提取出的游戏资源（谱面、音频）用于再分发。
+
 
 
 
