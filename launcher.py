@@ -70,8 +70,12 @@ def calibrate(cfg: dict) -> None:
     print(
         "\n校准会跑一次 Normal 第一关，用 -90/-70/-50/-30/-10 五个偏移轮换测试。\n"
         "请先进入 Normal 第一关，看到提示后按 F9 再开始。\n"
+        "（校准不会替你点菜单：在游戏里手动进 Normal 第一关。）\n"
     )
-    run(["tools/calibrate.py", "--chart", chart])
+    args = ["tools/calibrate.py", "--chart", chart]
+    if cfg.get("device"):
+        args += ["--device", cfg["device"]]
+    run(args)
 
 
 def main() -> None:
