@@ -76,6 +76,9 @@ def calibrate(cfg: dict) -> None:
     if cfg.get("device"):
         args += ["--device", cfg["device"]]
     run(args)
+    # calibrate.py writes config.json in a child process; pick the new offset up
+    # here or the rest of this session keeps playing with the old one.
+    cfg.update(load_config())
 
 
 def main() -> None:
